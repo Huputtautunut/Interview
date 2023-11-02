@@ -32,6 +32,7 @@ label start:
     n "You call the last person in"
 
     show default
+    with dissolve
 
     menu:
 
@@ -71,6 +72,7 @@ label instadeath:
     #joe leaves
 
     hide angry
+    with dissolve
     n "Johanna leaves the interview"
 
     n "You lost."
@@ -154,6 +156,7 @@ label death2:
     j "If you change your mind, you can contact me with email: jonsku022@gmail.com."
     #joe leaves
     hide default
+    with dissolve
 
     n "Johanna leaves"
 
@@ -258,6 +261,7 @@ label over:
     show default
     j"If you happen to change your mind, you can contact me with email: jonsku022@gmail.com."
     hide default
+    with dissolve
     n"Johanna leaves"
     n"You pack your packs and go home. You are unable to sleep well, knowing you let a great employee slip through your fingers"
     n"Game over"
@@ -283,6 +287,7 @@ label contacts:
     j"Thank you for the interwiev. I can't wait to start working here!"
 
     hide default
+    with dissolve
     n"Johanna leaves"
 
     n"You stand up and start to pack your stuff being happy that you have found your new employee. Now you can finally go home and sleep well."
@@ -295,7 +300,7 @@ label salary1:
     #returns defaul
     show default
     j "Well, I don't have too much knowledge, but engineering union says that a person who has at least 150 credits should have a salary between  2 500 – 2 800€ and a person who has a little bit of experience should have a salary of  3 300€."
-    j "Since my studies are not yet complete but I do have some experience, I would expect somewhere around the 2900€"
+    j "Since my studies are not yet complete but I do have some experience, I would expect somewhere around the 2800€"
     j "But I'm willing to hear what you can offer"
 
     #smiles widely
